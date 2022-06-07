@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/booking-car/static/css/main.1a5954d0.css",
+    "main.js": "/booking-car/static/js/main.7d2b92c5.js",
+    "index.html": "/booking-car/index.html",
+    "main.1a5954d0.css.map": "/booking-car/static/css/main.1a5954d0.css.map",
+    "main.7d2b92c5.js.map": "/booking-car/static/js/main.7d2b92c5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1a5954d0.css",
+    "static/js/main.7d2b92c5.js"
+  ]
+}
