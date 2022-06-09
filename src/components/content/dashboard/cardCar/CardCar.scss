@@ -1,0 +1,39 @@
+$icon-width: 20px;
+$icon-height: 20px;
+.card-car {
+	margin: 2rem;
+	.card {
+		padding: 1rem 3rem 1rem 3rem;
+		border-radius: 15px;
+		.img-car {
+			width: 25rem;
+			height: 10rem;
+		}
+		.recommend-percent {
+			img {
+				width: $icon-width;
+				height: $icon-height;
+			}
+		}
+	}
+
+	.card-0 {
+		background-color: #e1dfa4;
+	}
+	.card-1 {
+		background-color: #e3ecf1;
+	}
+	.card-2 {
+		background-color: #f4e3e5;
+	}
+
+	.tools {
+		img {
+			width: $icon-width;
+			height: $icon-height;
+		}
+        span{
+            color: #72767C;
+        }
+	}
+}

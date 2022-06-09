@@ -1,11 +1,10 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
 import './Navbar.scss';
 
 function Navbar() {
 	return (
 		<div className="dashboard-toolbar">
 			<form action="">
-				<div className="p-2 bg-light rounded rounded-pill">
+				<div className="p-2 bg-light search">
 					<div className="input-group">
 						<div className="input-group-prepend">
 							<button id="btnSearch" type="submit" className="btn btn-link text-dark">
