@@ -6,9 +6,8 @@
 	bottom: 0;
 
 	background-color: #ffffff;
-	button {
+	a {
 		text-decoration: none;
-		font-family: 'DM Sans';
 		font-style: normal;
 		font-weight: 500;
 		font-size: 15px;
@@ -20,6 +19,7 @@
 		img, span{
 			pointer-events:none;
 		}
+		cursor: pointer;
 
 	}
 

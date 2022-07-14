@@ -1,20 +1,42 @@
-import React from 'react';
-import Content from './components/content/Content';
-import Menu from './components/menu/Menu';
-import Navbar from './components/navbar/Navbar';
+import React, { Fragment } from 'react';
+import './App.scss';
 
-import'./App.css';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { publicRoutes } from './routes';
+import { DefaultLayout } from './components/Layout';
 
 function App() {
-	return (
-		<div className="app">
-			<Menu />
-			<div className="app-content">
-				<Navbar />
-				<Content />
-			</div>
-		</div>
-	);
+    return (
+        <Router>
+            <div className="app">
+                <Routes>
+                    {publicRoutes.map((route, index) => {
+                        const Page = route.component;
+
+                        let Layout: React.ElementType = DefaultLayout;
+
+                        if (route.layout) {
+                            Layout = route.layout;
+                        } else if (route.layout === null) {
+                            Layout = Fragment;
+                        }
+
+                        return (
+                            <Route
+                                key={index}
+                                path={route.path}
+                                element={
+                                    <Layout>
+                                        <Page />
+                                    </Layout>
+                                }
+                            />
+                        );
+                    })}
+                </Routes>
+            </div>
+        </Router>
+    );
 }
 
 export default App;

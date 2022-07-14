@@ -1,8 +1,8 @@
 function Assets() {
 	return (
 		<div className="assets">
-			<h1>Hello World</h1>
-		</div> 
+			<h1>Assets</h1>
+		</div>
 	);
 }
 

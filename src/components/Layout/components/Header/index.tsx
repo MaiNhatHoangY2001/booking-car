@@ -1,7 +1,7 @@
-import './Navbar.scss';
+import './Header.scss'
 
-function Navbar() {
-	return (
+function Header() {
+    return (
 		<div className="dashboard-toolbar">
 			<form action="">
 				<div className="p-2 bg-light search">
@@ -33,4 +33,4 @@ function Navbar() {
 	);
 }
 
-export default Navbar;
+export default Header;
