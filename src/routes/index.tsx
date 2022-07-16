@@ -10,9 +10,9 @@ interface PathRouter {
 }
 
 const publicRoutes: Array<PathRouter> = [
-    { path: '/booking-car/', component: DashBoard },
-    { path: '/booking-car/assets', component: Assets },
-    { path: '/booking-car/login', component: Login, layout: HeaderOnly },
+    { path: '/booking-car', component: DashBoard },
+    { path: '/assets', component: Assets },
+    { path: '/login', component: Login, layout: HeaderOnly },
 ];
 
 const privateRoutes: Array<Object> = [];
