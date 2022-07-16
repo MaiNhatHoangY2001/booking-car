@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/booking-car/static/css/main.cf169a3a.css",
-    "main.js": "/booking-car/static/js/main.da037e2f.js",
+    "main.js": "/booking-car/static/js/main.d6eaf638.js",
     "index.html": "/booking-car/index.html",
     "main.cf169a3a.css.map": "/booking-car/static/css/main.cf169a3a.css.map",
-    "main.da037e2f.js.map": "/booking-car/static/js/main.da037e2f.js.map"
+    "main.d6eaf638.js.map": "/booking-car/static/js/main.d6eaf638.js.map"
   },
   "entrypoints": [
     "static/css/main.cf169a3a.css",
-    "static/js/main.da037e2f.js"
+    "static/js/main.d6eaf638.js"
   ]
 }
